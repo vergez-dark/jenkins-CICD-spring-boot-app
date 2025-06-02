@@ -10,7 +10,7 @@ pipeline {
         DOCKERHUB_AUTH = credentials('DockerHubCredentials')
         MYSQL_AUTH= credentials('MYSQL_AUTH')
         // HOSTNAME_DEPLOY_PROD = "192.168.42.3"
-        HOSTNAME_DEPLOY_STAGING = " https://fa52-143-105-152-172.ngrok-free.app"
+        HOSTNAME_DEPLOY_STAGING = "192.168.42.3"
         IMAGE_NAME= 'paymybuddy'
         IMAGE_TAG= 'latest'
     }
