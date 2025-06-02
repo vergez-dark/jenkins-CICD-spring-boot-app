@@ -97,7 +97,7 @@ pipeline {
                 sh '''
                     sleep 30
                     apk add --no-cache curl
-                    curl ${HOSTNAME_DEPLOY_STAGING}:8080
+                    curl http://${HOSTNAME_DEPLOY_STAGING}:8080
                 '''
             }
         }
